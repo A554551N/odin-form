@@ -18,32 +18,34 @@
             <div id="logoText">Cyclone League Baseball</div>
         </div>
         <div class="creditText">
-            Photo by <a href="https://unsplash.com/@chrisjoelcampbell?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Christopher Campbell</a> on
+            <p>Photo by <a href="https://unsplash.com/@chrisjoelcampbell?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Christopher Campbell</a> on
             <a href="https://unsplash.com/photos/man-holding-baseball-bat-on-green-field-syyBwqVX0Hc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            <br>Tornado image by Lorc under CC BY 3.0</p>
         </div>
     </div>
     <div class="maincontainer">
         <section id="section_1">
             <h1>So You Think You're Ready for Baseball?</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur distinctio eos iste ex. Impedit nobis fugit iure! Sint illo eligendi voluptas itaque minima, rem necessitatibus numquam consequuntur, nobis libero eaque.</p>
+            <p>Spoiler alert, you're not ready for baseball.</p>
         </section>
         <section id="section_2">
             <h1>Let's do this!</h1>
-            <form action="." id = "signUpForm" method="get">
+            <p>Items marked with an <span aria-label="required">*</span> are required.</p>
+            <form action="" id = "signUpForm" method="get">
                 <div class="formRow">
                     <div class="formElement">
-                        <label for="firstName">First Name</label>
-                        <input type="text" id="firstName" name="firstName">
+                        <label for="firstName">First Name<span aria-label="required">*</span></label>
+                        <input type="text" id="firstName" name="firstName" required>
                     </div>
                     <div class="formElement">
-                        <label for="lastName">Last Name</label>
-                        <input type="text" id="lastName" name="lastName">
+                        <label for="lastName">Last Name<span aria-label="required">*</span></label>
+                        <input type="text" id="lastName" name="lastName" required>
                     </div>
                 </div>
                 <div class="formRow">
                     <div class="formElement">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email">
+                        <label for="email">Email<span aria-label="required">*</span></label>
+                        <input type="email" id="email" name="email" required>
                     </div>
                     <div class="formElement">
                         <label for="phNum">Phone Number</label>
@@ -52,19 +54,19 @@
                 </div>
                 <div class="formRow">
                     <div class="formElement">
-                        <label for="pwd">Password</label>
-                        <input type="password" id="pwd" name="pwd">
+                        <label for="pwd">Password<span aria-label="required">*</span></label>
+                        <input type="password" id="pwd" name="pwd" required>
                     </div>
                     <div class="formElement">
-                        <label for="pwdConfirm">Confirm Password</label>
-                        <input type="password" id="pwdConfirm" name="pwdConfirm">
+                        <label for="pwdConfirm">Confirm Password<span aria-label="required">*</span></label>
+                        <input type="password" id="pwdConfirm" name="pwdConfirm" required>
                     </div>
                 </div>
             </form>
         </section>
         <section id="section_3">
-            <button form="signUpForm">Submit</button>
-            Already have an account?  <a href=".">Log in</a>
+                <button form="signUpForm">Submit</button>
+                <p>Already have an account? <a href=".">Log in</a></p>
         </section>
     </div>
 </body>
