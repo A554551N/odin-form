@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Molle&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
     <title>Join the Cyclone League</title>
 </head>
@@ -23,16 +24,22 @@
     </div>
     <div class="maincontainer">
         <section id="section_1">
-            <h1>Form Header</h1>
+            <h1>So You Think You're Ready for Baseball?</h1>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur distinctio eos iste ex. Impedit nobis fugit iure! Sint illo eligendi voluptas itaque minima, rem necessitatibus numquam consequuntur, nobis libero eaque.</p>
         </section>
         <section id="section_2">
             <h1>Let's do this!</h1>
             <form action="." id = "signUpForm" method="get">
-                <label for="firstName">First Name</label>
-                <input type="text" id="firstName" name="firstName">
-                <label for="lastName">Last Name</label>
-                <input type="text" id="lastName" name="lastName">
+                <div class="formRow">
+                    <div class="formElement">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="firstName">
+                    </div>
+                    <div class="formElement">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="lastName">
+                    </div>
+                </div>
                 <label for="email">Email</label><input type="email" id="email" name="email">
                 <label for="phNum">Phone Number</label><input type="tel" id="phNum" name="phNum">
                 <label for="pwd">Password</label><input type="password" id="pwd" name="pwd">
