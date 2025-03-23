@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Molle';
+    src: url('fonts/Molle-Regular.woff2') format('woff2'),
+        url('fonts/Molle-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: fallback;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.leftsideimage {
+    background-image: url("assets/leftsidebanner.jpg");
+    flex: 1;
+    background-size:cover;
+}
+
+.maincontainer {
+    flex: 3;
+    flex-direction: column;
+    display: flex;
+    height: 100vh;
+}
+
+.logocontainer {
+    font-family: 'Molle',sans-serif;
+    background-color: rgba(0,0,0,.5);
+    color: white;
+}
+
+.logocontainer img {
+    height:50px;
+    width:50px;
+}
+
+section {
+    border: 1px black solid;
+    flex: 1;
+    line-height: 1.5rem;
+}
+
+#section_1 h1 {
+    font-family: sans-serif;
+    font-weight: 600;
+}

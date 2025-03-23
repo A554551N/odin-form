@@ -3,10 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Molle&display=swap" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
-    <title>Document</title>
+    <title>Join the Cyclone League</title>
 </head>
 <body>
-    
+    <div class="leftsideimage">
+        <div class="logocontainer">
+            <img src="assets/tornado.svg"
+            alt="A Tornado" height="75" width = "75">Cyclone League Baseball
+        </div>
+    </div>
+    <div class="maincontainer">
+        <section id="section_1">
+            <h1>Form Header</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur distinctio eos iste ex. Impedit nobis fugit iure! Sint illo eligendi voluptas itaque minima, rem necessitatibus numquam consequuntur, nobis libero eaque.</p>
+        </section>
+        <section>
+            <h1>Let's do this!</h1>
+            <form action="." id = "signUpForm" method="get">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName">
+                <label for="email">Email</label><input type="email" id="email" name="email">
+                <label for="phNum">Phone Number</label><input type="tel" id="phNum" name="phNum">
+                <label for="pwd">Password</label><input type="password" id="pwd" name="pwd">
+                <label for="pwdConfirm">Confirm Password</label><input type="password" id="pwdConfirm" name="pwdConfirm">
+            </form>
+        </section>
+        <section>
+            <button form="signUpForm">Submit</button>
+            Already have an account?  <a href=".">Log in</a>
+        </section>
+    </div>
 </body>
 </html>
+
+<!--Photo by <a href="https://unsplash.com/@chrisjoelcampbell?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Christopher Campbell</a> on <a href="https://unsplash.com/photos/man-holding-baseball-bat-on-green-field-syyBwqVX0Hc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>-->
